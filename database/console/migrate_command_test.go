@@ -6,12 +6,12 @@ import (
 	"github.com/ory/dockertest/v3"
 	"github.com/stretchr/testify/assert"
 
-	configmock "github.com/goravel/framework/contracts/config/mocks"
-	consolemock "github.com/goravel/framework/contracts/console/mocks"
-	ormcontract "github.com/goravel/framework/contracts/database/orm"
-	"github.com/goravel/framework/database/gorm"
-	"github.com/goravel/framework/database/orm"
-	"github.com/goravel/framework/support/file"
+	configmock "github.com/wesleysnt/framework/contracts/config/mocks"
+	consolemock "github.com/wesleysnt/framework/contracts/console/mocks"
+	ormcontract "github.com/wesleysnt/framework/contracts/database/orm"
+	"github.com/wesleysnt/framework/database/gorm"
+	"github.com/wesleysnt/framework/database/orm"
+	"github.com/wesleysnt/framework/support/file"
 )
 
 type Agent struct {

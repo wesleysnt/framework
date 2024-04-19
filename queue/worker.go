@@ -1,7 +1,7 @@
 package queue
 
 import (
-	"github.com/goravel/framework/contracts/queue"
+	"github.com/wesleysnt/framework/contracts/queue"
 )
 
 const DriverSync string = "sync"

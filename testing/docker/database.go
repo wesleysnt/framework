@@ -6,14 +6,14 @@ import (
 
 	"github.com/ory/dockertest/v3"
 
-	contractsconfig "github.com/goravel/framework/contracts/config"
-	contractsorm "github.com/goravel/framework/contracts/database/orm"
-	"github.com/goravel/framework/contracts/database/seeder"
-	"github.com/goravel/framework/contracts/foundation"
-	"github.com/goravel/framework/contracts/testing"
-	"github.com/goravel/framework/database"
-	"github.com/goravel/framework/database/gorm"
-	"github.com/goravel/framework/support/docker"
+	contractsconfig "github.com/wesleysnt/framework/contracts/config"
+	contractsorm "github.com/wesleysnt/framework/contracts/database/orm"
+	"github.com/wesleysnt/framework/contracts/database/seeder"
+	"github.com/wesleysnt/framework/contracts/foundation"
+	"github.com/wesleysnt/framework/contracts/testing"
+	"github.com/wesleysnt/framework/database"
+	"github.com/wesleysnt/framework/database/gorm"
+	"github.com/wesleysnt/framework/support/docker"
 )
 
 type Database struct {

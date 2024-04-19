@@ -1,7 +1,7 @@
 package foundation
 
 import (
-	"github.com/goravel/framework/contracts/console"
+	"github.com/wesleysnt/framework/contracts/console"
 )
 
 //go:generate mockery --name=Application

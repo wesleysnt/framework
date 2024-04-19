@@ -12,12 +12,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	configmock "github.com/goravel/framework/contracts/config/mocks"
-	"github.com/goravel/framework/contracts/filesystem"
-	contractshttp "github.com/goravel/framework/contracts/http"
-	"github.com/goravel/framework/contracts/validation"
-	"github.com/goravel/framework/support/carbon"
-	"github.com/goravel/framework/support/file"
+	configmock "github.com/wesleysnt/framework/contracts/config/mocks"
+	"github.com/wesleysnt/framework/contracts/filesystem"
+	contractshttp "github.com/wesleysnt/framework/contracts/http"
+	"github.com/wesleysnt/framework/contracts/validation"
+	"github.com/wesleysnt/framework/support/carbon"
+	"github.com/wesleysnt/framework/support/file"
 )
 
 var singleLog = "storage/logs/goravel.log"

@@ -3,8 +3,8 @@ package http
 import (
 	"net/http"
 
-	"github.com/goravel/framework/contracts/filesystem"
-	"github.com/goravel/framework/contracts/validation"
+	"github.com/wesleysnt/framework/contracts/filesystem"
+	"github.com/wesleysnt/framework/contracts/validation"
 )
 
 //go:generate mockery --name=ContextRequest

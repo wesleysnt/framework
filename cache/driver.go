@@ -3,8 +3,8 @@ package cache
 import (
 	"fmt"
 
-	"github.com/goravel/framework/contracts/cache"
-	"github.com/goravel/framework/contracts/config"
+	"github.com/wesleysnt/framework/contracts/cache"
+	"github.com/wesleysnt/framework/contracts/config"
 )
 
 //go:generate mockery --name=Driver

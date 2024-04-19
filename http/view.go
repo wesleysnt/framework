@@ -3,7 +3,7 @@ package http
 import (
 	"sync"
 
-	"github.com/goravel/framework/support/file"
+	"github.com/wesleysnt/framework/support/file"
 )
 
 type View struct {

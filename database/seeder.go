@@ -2,7 +2,7 @@ package database
 
 import (
 	"github.com/gookit/color"
-	"github.com/goravel/framework/contracts/database/seeder"
+	"github.com/wesleysnt/framework/contracts/database/seeder"
 )
 
 type SeederFacade struct {

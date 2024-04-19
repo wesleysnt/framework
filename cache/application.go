@@ -1,9 +1,9 @@
 package cache
 
 import (
-	"github.com/goravel/framework/contracts/cache"
-	"github.com/goravel/framework/contracts/config"
-	"github.com/goravel/framework/contracts/log"
+	"github.com/wesleysnt/framework/contracts/cache"
+	"github.com/wesleysnt/framework/contracts/config"
+	"github.com/wesleysnt/framework/contracts/log"
 )
 
 type Application struct {

@@ -3,8 +3,8 @@ package testing
 import (
 	"github.com/ory/dockertest/v3"
 
-	"github.com/goravel/framework/contracts/database/orm"
-	"github.com/goravel/framework/contracts/database/seeder"
+	"github.com/wesleysnt/framework/contracts/database/orm"
+	"github.com/wesleysnt/framework/contracts/database/seeder"
 )
 
 type Testing interface {

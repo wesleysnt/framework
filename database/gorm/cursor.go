@@ -8,8 +8,8 @@ import (
 	"github.com/mitchellh/mapstructure"
 	"gorm.io/gorm"
 
-	"github.com/goravel/framework/support/carbon"
-	"github.com/goravel/framework/support/str"
+	"github.com/wesleysnt/framework/support/carbon"
+	"github.com/wesleysnt/framework/support/str"
 )
 
 type CursorImpl struct {

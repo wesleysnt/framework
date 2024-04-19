@@ -6,10 +6,10 @@ import (
 	"github.com/ory/dockertest/v3"
 	"github.com/stretchr/testify/assert"
 
-	configmock "github.com/goravel/framework/contracts/config/mocks"
-	consolemocks "github.com/goravel/framework/contracts/console/mocks"
-	ormcontract "github.com/goravel/framework/contracts/database/orm"
-	"github.com/goravel/framework/database/gorm"
+	configmock "github.com/wesleysnt/framework/contracts/config/mocks"
+	consolemocks "github.com/wesleysnt/framework/contracts/console/mocks"
+	ormcontract "github.com/wesleysnt/framework/contracts/database/orm"
+	"github.com/wesleysnt/framework/database/gorm"
 )
 
 func TestMigrateStatusCommand(t *testing.T) {

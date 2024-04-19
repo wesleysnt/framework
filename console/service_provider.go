@@ -1,9 +1,9 @@
 package console
 
 import (
-	"github.com/goravel/framework/console/console"
-	consolecontract "github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/contracts/foundation"
+	"github.com/wesleysnt/framework/console/console"
+	consolecontract "github.com/wesleysnt/framework/contracts/console"
+	"github.com/wesleysnt/framework/contracts/foundation"
 )
 
 const Binding = "goravel.console"

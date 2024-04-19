@@ -10,11 +10,11 @@ import (
 	"github.com/stretchr/testify/suite"
 	gormio "gorm.io/gorm"
 
-	"github.com/goravel/framework/contracts/database/factory"
-	ormcontract "github.com/goravel/framework/contracts/database/orm"
-	"github.com/goravel/framework/database/gorm"
-	"github.com/goravel/framework/database/orm"
-	"github.com/goravel/framework/support/carbon"
+	"github.com/wesleysnt/framework/contracts/database/factory"
+	ormcontract "github.com/wesleysnt/framework/contracts/database/orm"
+	"github.com/wesleysnt/framework/database/gorm"
+	"github.com/wesleysnt/framework/database/orm"
+	"github.com/wesleysnt/framework/support/carbon"
 )
 
 func (u *User) Factory() factory.Factory {

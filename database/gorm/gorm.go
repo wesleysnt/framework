@@ -14,10 +14,10 @@ import (
 	"gorm.io/gorm/schema"
 	"gorm.io/plugin/dbresolver"
 
-	"github.com/goravel/framework/contracts/config"
-	databasecontract "github.com/goravel/framework/contracts/database"
-	"github.com/goravel/framework/database/db"
-	"github.com/goravel/framework/support/carbon"
+	"github.com/wesleysnt/framework/contracts/config"
+	databasecontract "github.com/wesleysnt/framework/contracts/database"
+	"github.com/wesleysnt/framework/database/db"
+	"github.com/wesleysnt/framework/support/carbon"
 )
 
 var GormSet = wire.NewSet(NewGormImpl, wire.Bind(new(Gorm), new(*GormImpl)))

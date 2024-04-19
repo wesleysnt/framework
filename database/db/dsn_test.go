@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	configmock "github.com/goravel/framework/contracts/config/mocks"
-	databasecontract "github.com/goravel/framework/contracts/database"
-	"github.com/goravel/framework/contracts/database/orm"
+	configmock "github.com/wesleysnt/framework/contracts/config/mocks"
+	databasecontract "github.com/wesleysnt/framework/contracts/database"
+	"github.com/wesleysnt/framework/contracts/database/orm"
 )
 
 const (

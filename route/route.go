@@ -5,8 +5,8 @@ import (
 
 	"github.com/gookit/color"
 
-	"github.com/goravel/framework/contracts/config"
-	"github.com/goravel/framework/contracts/route"
+	"github.com/wesleysnt/framework/contracts/config"
+	"github.com/wesleysnt/framework/contracts/route"
 )
 
 type Driver string

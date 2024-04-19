@@ -7,8 +7,8 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/goravel/framework/contracts/database/orm"
-	"github.com/goravel/framework/support/str"
+	"github.com/wesleysnt/framework/contracts/database/orm"
+	"github.com/wesleysnt/framework/support/str"
 )
 
 type Event struct {

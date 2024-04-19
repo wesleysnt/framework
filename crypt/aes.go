@@ -10,9 +10,9 @@ import (
 
 	"github.com/gookit/color"
 
-	"github.com/goravel/framework/contracts/config"
-	"github.com/goravel/framework/support"
-	"github.com/goravel/framework/support/json"
+	"github.com/wesleysnt/framework/contracts/config"
+	"github.com/wesleysnt/framework/support"
+	"github.com/wesleysnt/framework/support/json"
 )
 
 type AES struct {

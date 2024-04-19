@@ -5,10 +5,10 @@ import (
 
 	"github.com/ory/dockertest/v3"
 
-	contractsconfig "github.com/goravel/framework/contracts/config"
-	"github.com/goravel/framework/contracts/database/orm"
-	"github.com/goravel/framework/contracts/testing"
-	"github.com/goravel/framework/support/file"
+	contractsconfig "github.com/wesleysnt/framework/contracts/config"
+	"github.com/wesleysnt/framework/contracts/database/orm"
+	"github.com/wesleysnt/framework/contracts/testing"
+	"github.com/wesleysnt/framework/support/file"
 )
 
 type Sqlite struct {

@@ -1,7 +1,7 @@
 package facades
 
 import (
-	"github.com/goravel/framework/contracts/log"
+	"github.com/wesleysnt/framework/contracts/log"
 )
 
 func Log() log.Log {

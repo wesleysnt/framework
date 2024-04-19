@@ -5,7 +5,7 @@ package mocks
 import (
 	context "context"
 
-	orm "github.com/goravel/framework/contracts/database/orm"
+	orm "github.com/wesleysnt/framework/contracts/database/orm"
 	mock "github.com/stretchr/testify/mock"
 
 	sql "database/sql"

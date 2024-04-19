@@ -3,7 +3,7 @@ package testing
 import (
 	"fmt"
 
-	"github.com/goravel/framework/contracts/database/seeder"
+	"github.com/wesleysnt/framework/contracts/database/seeder"
 )
 
 type TestCase struct {

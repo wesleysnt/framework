@@ -1,7 +1,7 @@
 package crypt
 
 import (
-	"github.com/goravel/framework/contracts/foundation"
+	"github.com/wesleysnt/framework/contracts/foundation"
 )
 
 const Binding = "goravel.crypt"

@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	seeder "github.com/goravel/framework/contracts/database/seeder"
+	seeder "github.com/wesleysnt/framework/contracts/database/seeder"
 	mock "github.com/stretchr/testify/mock"
 )
 

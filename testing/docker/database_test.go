@@ -9,12 +9,12 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
 
-	configmocks "github.com/goravel/framework/contracts/config/mocks"
-	consolemocks "github.com/goravel/framework/contracts/console/mocks"
-	contractsorm "github.com/goravel/framework/contracts/database/orm"
-	foundationmocks "github.com/goravel/framework/contracts/foundation/mocks"
-	"github.com/goravel/framework/database"
-	gormmocks "github.com/goravel/framework/database/gorm/mocks"
+	configmocks "github.com/wesleysnt/framework/contracts/config/mocks"
+	consolemocks "github.com/wesleysnt/framework/contracts/console/mocks"
+	contractsorm "github.com/wesleysnt/framework/contracts/database/orm"
+	foundationmocks "github.com/wesleysnt/framework/contracts/foundation/mocks"
+	"github.com/wesleysnt/framework/database"
+	gormmocks "github.com/wesleysnt/framework/database/gorm/mocks"
 )
 
 func TestNewDatabase(t *testing.T) {

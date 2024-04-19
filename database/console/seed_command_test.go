@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	configmocks "github.com/goravel/framework/contracts/config/mocks"
-	consolemocks "github.com/goravel/framework/contracts/console/mocks"
-	"github.com/goravel/framework/contracts/database/seeder"
-	seedermocks "github.com/goravel/framework/contracts/database/seeder/mocks"
+	configmocks "github.com/wesleysnt/framework/contracts/config/mocks"
+	consolemocks "github.com/wesleysnt/framework/contracts/console/mocks"
+	"github.com/wesleysnt/framework/contracts/database/seeder"
+	seedermocks "github.com/wesleysnt/framework/contracts/database/seeder/mocks"
 )
 
 type SeedCommandTestSuite struct {

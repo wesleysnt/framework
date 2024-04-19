@@ -6,12 +6,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/goravel/framework/config"
-	consolecontract "github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/contracts/foundation"
-	"github.com/goravel/framework/foundation/console"
-	"github.com/goravel/framework/support"
-	"github.com/goravel/framework/support/carbon"
+	"github.com/wesleysnt/framework/config"
+	consolecontract "github.com/wesleysnt/framework/contracts/console"
+	"github.com/wesleysnt/framework/contracts/foundation"
+	"github.com/wesleysnt/framework/foundation/console"
+	"github.com/wesleysnt/framework/support"
+	"github.com/wesleysnt/framework/support/carbon"
 )
 
 var (

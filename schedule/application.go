@@ -6,11 +6,11 @@ import (
 	"github.com/gookit/color"
 	"github.com/robfig/cron/v3"
 
-	"github.com/goravel/framework/contracts/cache"
-	"github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/contracts/log"
-	"github.com/goravel/framework/contracts/schedule"
-	"github.com/goravel/framework/support/carbon"
+	"github.com/wesleysnt/framework/contracts/cache"
+	"github.com/wesleysnt/framework/contracts/console"
+	"github.com/wesleysnt/framework/contracts/log"
+	"github.com/wesleysnt/framework/contracts/schedule"
+	"github.com/wesleysnt/framework/support/carbon"
 )
 
 type Application struct {

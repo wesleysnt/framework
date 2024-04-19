@@ -1,7 +1,7 @@
 package facades
 
 import (
-	"github.com/goravel/framework/contracts/crypt"
+	"github.com/wesleysnt/framework/contracts/crypt"
 )
 
 func Crypt() crypt.Crypt {

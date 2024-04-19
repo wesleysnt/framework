@@ -6,8 +6,8 @@ import (
 	"github.com/ory/dockertest/v3"
 	"github.com/stretchr/testify/suite"
 
-	configmocks "github.com/goravel/framework/contracts/config/mocks"
-	"github.com/goravel/framework/contracts/database/orm"
+	configmocks "github.com/wesleysnt/framework/contracts/config/mocks"
+	"github.com/wesleysnt/framework/contracts/database/orm"
 )
 
 type SqliteTestSuite struct {

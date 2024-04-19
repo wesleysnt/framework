@@ -10,9 +10,9 @@ import (
 	"github.com/rifflock/lfshook"
 	"github.com/sirupsen/logrus"
 
-	"github.com/goravel/framework/contracts/config"
-	"github.com/goravel/framework/log/formatter"
-	"github.com/goravel/framework/support"
+	"github.com/wesleysnt/framework/contracts/config"
+	"github.com/wesleysnt/framework/log/formatter"
+	"github.com/wesleysnt/framework/support"
 )
 
 type Daily struct {

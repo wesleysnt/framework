@@ -5,8 +5,8 @@ package mocks
 import (
 	context "context"
 
-	http "github.com/goravel/framework/contracts/http"
-	log "github.com/goravel/framework/contracts/log"
+	http "github.com/wesleysnt/framework/contracts/http"
+	log "github.com/wesleysnt/framework/contracts/log"
 
 	mock "github.com/stretchr/testify/mock"
 )

@@ -1,9 +1,9 @@
 package testing
 
 import (
-	"github.com/goravel/framework/contracts/foundation"
-	"github.com/goravel/framework/contracts/testing"
-	"github.com/goravel/framework/testing/docker"
+	"github.com/wesleysnt/framework/contracts/foundation"
+	"github.com/wesleysnt/framework/contracts/testing"
+	"github.com/wesleysnt/framework/testing/docker"
 )
 
 type Application struct {

@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/goravel/framework/contracts/foundation"
-	"github.com/goravel/framework/support"
+	"github.com/wesleysnt/framework/contracts/foundation"
+	"github.com/wesleysnt/framework/support"
 )
 
 const Binding = "goravel.config"

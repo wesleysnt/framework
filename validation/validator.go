@@ -5,7 +5,7 @@ import (
 
 	"github.com/gookit/validate"
 
-	httpvalidate "github.com/goravel/framework/contracts/validation"
+	httpvalidate "github.com/wesleysnt/framework/contracts/validation"
 )
 
 func init() {

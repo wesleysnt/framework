@@ -1,7 +1,7 @@
 package facades
 
 import (
-	"github.com/goravel/framework/contracts/hash"
+	"github.com/wesleysnt/framework/contracts/hash"
 )
 
 func Hash() hash.Hash {

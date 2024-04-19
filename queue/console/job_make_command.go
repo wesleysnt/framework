@@ -8,10 +8,10 @@ import (
 
 	"github.com/gookit/color"
 
-	"github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/contracts/console/command"
-	"github.com/goravel/framework/support/file"
-	"github.com/goravel/framework/support/str"
+	"github.com/wesleysnt/framework/contracts/console"
+	"github.com/wesleysnt/framework/contracts/console/command"
+	"github.com/wesleysnt/framework/support/file"
+	"github.com/wesleysnt/framework/support/str"
 )
 
 type JobMakeCommand struct {

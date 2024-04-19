@@ -3,7 +3,7 @@ package validation
 import (
 	"testing"
 
-	httpvalidate "github.com/goravel/framework/contracts/validation"
+	httpvalidate "github.com/wesleysnt/framework/contracts/validation"
 
 	"github.com/stretchr/testify/assert"
 )

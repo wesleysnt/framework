@@ -3,7 +3,7 @@ package hash
 import (
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/goravel/framework/contracts/config"
+	"github.com/wesleysnt/framework/contracts/config"
 )
 
 type Bcrypt struct {

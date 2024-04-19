@@ -1,7 +1,7 @@
 package facades
 
 import (
-	"github.com/goravel/framework/contracts/validation"
+	"github.com/wesleysnt/framework/contracts/validation"
 )
 
 func Validation() validation.Validation {

@@ -8,11 +8,11 @@ import (
 	"github.com/rotisserie/eris"
 	"github.com/sirupsen/logrus"
 
-	"github.com/goravel/framework/contracts/config"
-	"github.com/goravel/framework/contracts/http"
-	"github.com/goravel/framework/contracts/log"
-	"github.com/goravel/framework/log/formatter"
-	"github.com/goravel/framework/log/logger"
+	"github.com/wesleysnt/framework/contracts/config"
+	"github.com/wesleysnt/framework/contracts/http"
+	"github.com/wesleysnt/framework/contracts/log"
+	"github.com/wesleysnt/framework/log/formatter"
+	"github.com/wesleysnt/framework/log/logger"
 )
 
 type Writer struct {

@@ -8,6 +8,7 @@ import (
 	"time"
 
 	"github.com/google/wire"
+	"github.com/uptrace/opentelemetry-go-extra/otelgorm"
 	gormio "gorm.io/gorm"
 	gormlogger "gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
@@ -133,6 +134,11 @@ func (r *GormImpl) init(dialector gormio.Dialector) error {
 			SingularTable: r.config.GetBool(fmt.Sprintf("database.connections.%s.singular", r.connection)),
 		},
 	})
+	if err != nil {
+		return err
+	}
+
+	err = instance.Use(otelgorm.NewPlugin(otelgorm.WithDBName(r.config.GetString(fmt.Sprintf("database.connections.%s.database", r.connection)))))
 	if err != nil {
 		return err
 	}
